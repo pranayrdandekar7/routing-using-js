@@ -1,8 +1,12 @@
+import Navbar from "../../components/Navbar/Navbar";
 import "./About.css"
 
 function About() {
   return (
-    <div>About</div>
+    <>
+    <Navbar/>
+    <h1>About</h1>
+    </>
   )
 }
 
